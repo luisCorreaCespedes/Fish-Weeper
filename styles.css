@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('resources/wallpaper.png');
+    background-size: cover;
+}
+
+html {
+    margin: 20px;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.1em;
+    color: #000000;
+}
+
+.title {
+    width: 20%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container #result {
+  font-size: 50px;
+}
+
+.top {
+    width: 310px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #acbfa4;
+    border-top: 10px solid #acbfa4;
+    border-left: 10px solid #acbfa4;
+    border-right: 10px solid #acbfa4;
+}
+
+.flag-box,
+.timer-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 40px;
+    background: #262626;
+    border: 5px solid;
+    border-color: #7c8a76 #e2e8ce #7c8a76 #e2e8ce;
+    color: #acbfa4;
+}
+
+.emoji-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    margin: 0 20px 0 20px;
+    background: #acbfa4;
+    border: 5px solid;
+    border-color: #e2e8ce #7c8a76 #7c8a76 #e2e8ce;
+    outline: none;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+  
+.grid {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    background: #acbfa4;
+    border: 15px solid #acbfa4;
+    margin-bottom: 20px;
+}
+  
+.grid div {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+  
+.valid,
+.bomb {
+    height: 30px;
+    width: 30px;
+    border: 4px solid;
+    border-color: #e2e8ce #7c8a76 #7c8a76 #e2e8ce;
+    box-sizing: border-box;
+}
+  
+.checked {
+    height: 40px;
+    width: 40px;
+    border: 2px solid;
+    background-color: #262626;
+    border-color: #7c8a76;
+    box-sizing: border-box;
+}
+  
+.one {
+  	color: #4299E1;
+}
+  
+.two {
+  	color: #48BB78;
+}
+  
+.three {
+  	color: #F56565;
+}
+  
+.four {
+	  color: #9F7AEA;
+}
