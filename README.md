@@ -4,7 +4,7 @@ _Videojuego del clásico Buscaminas realizado en JavaScript_
 
 ## Link del proyecto 🚀
 
-_[SnakeJS](https://fishweeper.netlify.app)_
+_[Fish Weeper](https://fishweeper.netlify.app)_
 
 ## Instrucciones ⚙️
 
